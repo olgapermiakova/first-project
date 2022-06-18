@@ -38,8 +38,8 @@
 
 .logo {
   position: absolute;
+  height: 32px ;
   width: 228px;
-  length: 32px;
 }
 
 .logo_place_header {
@@ -85,8 +85,8 @@
   top: 64px;
   height: 568px;
   width: 568px;
-  background-color: #2f80ed;
   z-index: 1;
+  background-color: #2f80ed;
 }
 
 /* ниже селекторы блока description */
@@ -105,7 +105,6 @@
 }
 
 .two-columns__brief {
-  color: #2f80ed;
   margin-top: 0;
   margin-bottom: 0;
   width: 175px;
@@ -114,7 +113,7 @@
   font-weight: normal;
   align-items: flex-start;
   display: flex;
-  
+  color: #2f80ed;
 }
 
 .two-columns__main-text {
@@ -144,12 +143,12 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  background-color: white;
   margin-left: auto;
   margin-right: auto;
   margin-top: 100px;
   margin-bottom: 100px;  
   width: 100%;
+  background-color: white;
 }
 
 .section-title_theme-light {
@@ -159,9 +158,9 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  color: #000000;
   margin-bottom: 20px;
   z-index: 1;
+  color: #000000;
 }
 
 .section-subtitle_theme-light {
@@ -215,6 +214,7 @@
 }
 
 /* ниже селекторы блока feynman */
+
 .feynman {
   position: relative;
   height: 890px;
@@ -251,8 +251,8 @@
   line-height: 51px;
   font-size: 36px;
   font-weight: normal;
-  color: #2f80ed;
   z-index: 1;
+  color: #2f80ed;
 }
 
 .feynman__main-illustration {
@@ -270,11 +270,11 @@
   position: relative;
   flex-direction: column;
   align-items: center;
-  background-color: #1f1f1f;
   overflow: hidden;
   width: 100%;
   padding-top: 90px;
   padding-bottom: 90px;
+  background-color: #1f1f1f;
 }
 
 .kaufman__triangle {
@@ -295,9 +295,9 @@
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
-  color: #f2f2f2;
   margin-bottom: 0;
   z-index: 1;
+  color: #f2f2f2;
 }
 
 /* ниже селектор текста от Джоша Кауфмана */
@@ -309,9 +309,9 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  color: #f2f2f2;
   z-index: 1;
   margin-top: 20px;
+  color: #f2f2f2;
 }
 
 /* ниже селекторы таблицы с принципами обучения */
@@ -338,8 +338,8 @@
   line-height: 1.15;
   font-size: 24px;
   font-weight: bold;
-  color: #f2f2f2;
   z-index: 1;
+  color: #f2f2f2;
 }
 
 .table__text_theme-dark {
@@ -347,18 +347,18 @@
   font-size: 18px;
   font-weight: normal;
   margin-top: 20px;
-  color:#f2f2f2;
   z-index: 1;
+  color:#f2f2f2;
 }
 
 /* ниже селекторы блока footer */
 
 .footer {
   min-height: 350px;
-  background-color: #1f1f1f;
   padding: 0;
   padding-top: 60px;
   padding-bottom: 40px;
+  background-color: #1f1f1f;
 }
 
 .footer__columns {
@@ -402,10 +402,10 @@
   margin-bottom: 18px;
   bottom: 0;
   left: 0;
-  color: #f2f2f2;
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
+  color: #f2f2f2;
 }
 
 /* ниже селектор текста О Практикуме */
@@ -438,8 +438,8 @@ ul {
 }
 
 a {
-  color: #f2f2f2;
   text-decoration: 0;
+  color: #f2f2f2;
 }
 
 .footer__column-links:last-of-type {
@@ -448,6 +448,6 @@ a {
 
 .footer__social-icon {
   width: 16px;
-  length: 16px;
+  height: 16px;
   margin-right: 10px;
 }
